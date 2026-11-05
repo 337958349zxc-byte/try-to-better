@@ -1,0 +1,720 @@
+{
+  "snapshotDate": "2026-11-05",
+  "applicationVersion": "0.2.19",
+  "versionCode": 21,
+  "sourceFiles": [
+    {
+      "path": "android/app/build.gradle.kts",
+      "sourceSha256": "e990261bbafc904425bca624ea637f1dce00e295761805eec2dd1a2e9ee0881d",
+      "snapshotSha256": "e990261bbafc904425bca624ea637f1dce00e295761805eec2dd1a2e9ee0881d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/AndroidManifest.xml",
+      "sourceSha256": "85a8832a1f5d18186edd04e1914e329d18ffa545a2c2ddadbd42a5f32fed1271",
+      "snapshotSha256": "85a8832a1f5d18186edd04e1914e329d18ffa545a2c2ddadbd42a5f32fed1271",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/AlarmIntegrationTest.kt",
+      "sourceSha256": "fb59faa1dc7540f1bc14b858f37c61538d5165b6c94fe809c802b65d21880353",
+      "snapshotSha256": "fb59faa1dc7540f1bc14b858f37c61538d5165b6c94fe809c802b65d21880353",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/AlarmPermissionTest.kt",
+      "sourceSha256": "54cee44eb1d99ec85a2ef52b191fbc2c5859e3e1aead20aff4e30b6d6ef6ca59",
+      "snapshotSha256": "54cee44eb1d99ec85a2ef52b191fbc2c5859e3e1aead20aff4e30b6d6ef6ca59",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/AlarmUiTest.kt",
+      "sourceSha256": "5db1a935eb78fe953795656374d87dbb1b779cb57cfa0fe090ff33e67ff23461",
+      "snapshotSha256": "5db1a935eb78fe953795656374d87dbb1b779cb57cfa0fe090ff33e67ff23461",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/ClockContractActivity.kt",
+      "sourceSha256": "a96b1e4fdd6f5caab5967f859adc4860bcc5e1c1dd820923f5542dc4d8263f78",
+      "snapshotSha256": "a96b1e4fdd6f5caab5967f859adc4860bcc5e1c1dd820923f5542dc4d8263f78",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/CompactUiTest.kt",
+      "sourceSha256": "9f43d9f93040786e3c1fb93dc9059589e7d4fb785f58fd58d948f0b2f84e1798",
+      "snapshotSha256": "9f43d9f93040786e3c1fb93dc9059589e7d4fb785f58fd58d948f0b2f84e1798",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/ConnectionUiTest.kt",
+      "sourceSha256": "89d7d1cd931e9ebcecbccbcaf584b179fd46c118b2c5edd574e789f8361456b1",
+      "snapshotSha256": "89d7d1cd931e9ebcecbccbcaf584b179fd46c118b2c5edd574e789f8361456b1",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/FrontendFlowTest.kt",
+      "sourceSha256": "6995e90359b668694b06c0e4041f648e42adc2c4122c733b87824cb33b4a145b",
+      "snapshotSha256": "6995e90359b668694b06c0e4041f648e42adc2c4122c733b87824cb33b4a145b",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/LanIntegrationTest.kt",
+      "sourceSha256": "824d1e4e32c7fdee07914e334011351f0dbe197913be2a2c2313903740bff2f6",
+      "snapshotSha256": "824d1e4e32c7fdee07914e334011351f0dbe197913be2a2c2313903740bff2f6",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/LegacyUpgradeTest.kt",
+      "sourceSha256": "7486dca588c0875f06737486ae93b09f6f0d77ddf31c1f4159d232a287faa039",
+      "snapshotSha256": "7486dca588c0875f06737486ae93b09f6f0d77ddf31c1f4159d232a287faa039",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/LifeOsV3StateTest.kt",
+      "sourceSha256": "a6b77e15991ef8488002bb7bc21a1ef0ada13fcae012b71f179656673e51ee1d",
+      "snapshotSha256": "a6b77e15991ef8488002bb7bc21a1ef0ada13fcae012b71f179656673e51ee1d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/LifeOsV3Test.kt",
+      "sourceSha256": "11c2f6c055fade26681da236b033c5b35e689f5d14d7d96faa0f3be18afaaffe",
+      "snapshotSha256": "11c2f6c055fade26681da236b033c5b35e689f5d14d7d96faa0f3be18afaaffe",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/PoseModelSmokeTest.kt",
+      "sourceSha256": "48db5f10ce5693cb66022487e830f440d93fe35b6dc751824bd386fc19d65653",
+      "snapshotSha256": "48db5f10ce5693cb66022487e830f440d93fe35b6dc751824bd386fc19d65653",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/RecipeUiTest.kt",
+      "sourceSha256": "c4d316e7a3c2a826761e3ff89c5ccc70805c822c13df316fe630178dfc7c36e4",
+      "snapshotSha256": "c4d316e7a3c2a826761e3ff89c5ccc70805c822c13df316fe630178dfc7c36e4",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/RepositoryInstrumentedTest.kt",
+      "sourceSha256": "63f88ea80889104b99f770bdc4b4365fd62b5bcfc6fcd9a2d8deb63468ca572c",
+      "snapshotSha256": "63f88ea80889104b99f770bdc4b4365fd62b5bcfc6fcd9a2d8deb63468ca572c",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/SyncEngineInstrumentedTest.kt",
+      "sourceSha256": "6e62f30aaecf6ad05fa24f6bd55375c17a69193137e07db99fc4291533f4f3c5",
+      "snapshotSha256": "6e62f30aaecf6ad05fa24f6bd55375c17a69193137e07db99fc4291533f4f3c5",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/TimelineClockBatchTest.kt",
+      "sourceSha256": "9924ccccd840bd608e7fc17f0863cb5aaafedf981909afc10235c8a35cf16b30",
+      "snapshotSha256": "9924ccccd840bd608e7fc17f0863cb5aaafedf981909afc10235c8a35cf16b30",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/TimelineClockUiTest.kt",
+      "sourceSha256": "97f0ac6d99f633c164493f34b4121576ecf1453e93fe274c6826270ccd0034d5",
+      "snapshotSha256": "97f0ac6d99f633c164493f34b4121576ecf1453e93fe274c6826270ccd0034d5",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/UiV2StateTest.kt",
+      "sourceSha256": "27a6818cc51271151dc553d75f0897c88506447217838ffe95b9eba477808f66",
+      "snapshotSha256": "27a6818cc51271151dc553d75f0897c88506447217838ffe95b9eba477808f66",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/UiV2Test.kt",
+      "sourceSha256": "6283c2636d0335a8095b8870ec4c01a18cda71d265600f8b2a2d2b615cb08e97",
+      "snapshotSha256": "6283c2636d0335a8095b8870ec4c01a18cda71d265600f8b2a2d2b615cb08e97",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/UpdateIntegrationTest.kt",
+      "sourceSha256": "d5e04fa45723418a9313b4e715dfa6c975d0737a03741b517f6b864ab8c5a37d",
+      "snapshotSha256": "d5e04fa45723418a9313b4e715dfa6c975d0737a03741b517f6b864ab8c5a37d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/trytobatter/app/WorkoutEntryUiTest.kt",
+      "sourceSha256": "81beed97a392a86f804d285065c3880c367590bac1940106b6a24d267bd5549a",
+      "snapshotSha256": "81beed97a392a86f804d285065c3880c367590bac1940106b6a24d267bd5549a",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sourceSha256": "a776cc2567fa380f0d1e35bb6db1bb18c5207a3948ba1c76e226531d933de8c6",
+      "snapshotSha256": "a776cc2567fa380f0d1e35bb6db1bb18c5207a3948ba1c76e226531d933de8c6",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/assets/mediapipe-LICENSE.txt",
+      "sourceSha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+      "snapshotSha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/assets/pose-model-NOTICE.txt",
+      "sourceSha256": "7763e723f582e2af69fb9f8fe8905df6aa8009874e339d341bef263f2ac00953",
+      "snapshotSha256": "7763e723f582e2af69fb9f8fe8905df6aa8009874e339d341bef263f2ac00953",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/assets/pose_landmarker_lite.task",
+      "sourceSha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "snapshotSha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/BatterApp.kt",
+      "sourceSha256": "e970a87a7a82b00b3079614daf95386f0473d00c36be882c0c2e67746bbfa2db",
+      "snapshotSha256": "e970a87a7a82b00b3079614daf95386f0473d00c36be882c0c2e67746bbfa2db",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/BatterApplication.kt",
+      "sourceSha256": "b599b45d3b7a87279d3756eb8e220589fc37a82f4d864947810b259a03bdb0a8",
+      "snapshotSha256": "b599b45d3b7a87279d3756eb8e220589fc37a82f4d864947810b259a03bdb0a8",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/BatterViewModel.kt",
+      "sourceSha256": "808a0ca0e14d15a7f482bbf521a73f0137e2757dda291eec4947154cd41de106",
+      "snapshotSha256": "808a0ca0e14d15a7f482bbf521a73f0137e2757dda291eec4947154cd41de106",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/AlarmComponents.kt",
+      "sourceSha256": "7301a9240cdb85fc86ceb38e47df2fe01750194898037bae3f9782a485e49633",
+      "snapshotSha256": "7301a9240cdb85fc86ceb38e47df2fe01750194898037bae3f9782a485e49633",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/AlarmRules.kt",
+      "sourceSha256": "5ad1aad2994268489656316cc8ee49048d9d9f2aeac08151485f1a1f862fc9fb",
+      "snapshotSha256": "5ad1aad2994268489656316cc8ee49048d9d9f2aeac08151485f1a1f862fc9fb",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/AlarmUi.kt",
+      "sourceSha256": "1beda5bc2d18f305885fa918d3af35afd448737cd0b0d3091730aae54a727ea7",
+      "snapshotSha256": "1beda5bc2d18f305885fa918d3af35afd448737cd0b0d3091730aae54a727ea7",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/SystemClockBridge.kt",
+      "sourceSha256": "ec1715040eb1969f4a0535e327acaab210961092c716514b7cfd99e40be89f2c",
+      "snapshotSha256": "ec1715040eb1969f4a0535e327acaab210961092c716514b7cfd99e40be89f2c",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/TaskAlarmActivity.kt",
+      "sourceSha256": "66bdff26d3de3d0686402c1419fe6621bd7db6508ff4b56cc5a3651372d66aed",
+      "snapshotSha256": "66bdff26d3de3d0686402c1419fe6621bd7db6508ff4b56cc5a3651372d66aed",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/TaskAlarmCoordinator.kt",
+      "sourceSha256": "fa2e47f317ec9685b739f75392fccc56264510ec2ba490022a4cec85bb4ebba7",
+      "snapshotSha256": "fa2e47f317ec9685b739f75392fccc56264510ec2ba490022a4cec85bb4ebba7",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/TimelineClockBatchViewModel.kt",
+      "sourceSha256": "17a17b7b158c934c225fb5614ac8074acb1e0df07149d46722c0642d2faa7f86",
+      "snapshotSha256": "17a17b7b158c934c225fb5614ac8074acb1e0df07149d46722c0642d2faa7f86",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/TimelineClockControl.kt",
+      "sourceSha256": "a1e2fc85edc3d4606d591323077b77845d0be7359b04e63bb1b467c06b390f1b",
+      "snapshotSha256": "a1e2fc85edc3d4606d591323077b77845d0be7359b04e63bb1b467c06b390f1b",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/alarm/TimelineClockRules.kt",
+      "sourceSha256": "050f31fe7684066ab763b2e926d91d4bb3edf4a05836eee9aa467752c1d3f90d",
+      "snapshotSha256": "050f31fe7684066ab763b2e926d91d4bb3edf4a05836eee9aa467752c1d3f90d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/AppRepository.kt",
+      "sourceSha256": "c6dfa174e34ef94084f415c7c75c4cc2b9f1b299fea1bdac3c47fc57526b37c6",
+      "snapshotSha256": "c6dfa174e34ef94084f415c7c75c4cc2b9f1b299fea1bdac3c47fc57526b37c6",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/AppUpdateManager.kt",
+      "sourceSha256": "1d1eea4bcfe08c1553838a57bd55e3a5155c2e44c8877cc9ab95fc5627adb67f",
+      "snapshotSha256": "1d1eea4bcfe08c1553838a57bd55e3a5155c2e44c8877cc9ab95fc5627adb67f",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/BackgroundSyncWorker.kt",
+      "sourceSha256": "c2a2daddd8721a87eee29eb9fd4f36f22a1fe916bba1092e1f1dc0af90ac1e9d",
+      "snapshotSha256": "c2a2daddd8721a87eee29eb9fd4f36f22a1fe916bba1092e1f1dc0af90ac1e9d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/BatterDatabase.java",
+      "sourceSha256": "7c4e8d6d1f1c6d7b76b559956b6b077877bdad1fbad52cd61825e5a3ec5807cb",
+      "snapshotSha256": "7c4e8d6d1f1c6d7b76b559956b6b077877bdad1fbad52cd61825e5a3ec5807cb",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/ClockDiagnosticOutbox.kt",
+      "sourceSha256": "53beff0e8fbb322904ee0cfb34c01f25a85173961cc982bf1f9b30f247a3279a",
+      "snapshotSha256": "53beff0e8fbb322904ee0cfb34c01f25a85173961cc982bf1f9b30f247a3279a",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/CredentialStore.kt",
+      "sourceSha256": "a80f8659a4c398686f328ef42e808c26757303b923b03e3725157a7bc4bfa612",
+      "snapshotSha256": "a80f8659a4c398686f328ef42e808c26757303b923b03e3725157a7bc4bfa612",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/LanClient.kt",
+      "sourceSha256": "131daf198056ecce3e87c6d09b6aee587e15a43c7512b08952a5f959e1e7c203",
+      "snapshotSha256": "131daf198056ecce3e87c6d09b6aee587e15a43c7512b08952a5f959e1e7c203",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/LanDiscovery.kt",
+      "sourceSha256": "0b0b3d71596340232aa5cd7034c484c31513ba9a6b7fa2595e29a954d9f3c99e",
+      "snapshotSha256": "0b0b3d71596340232aa5cd7034c484c31513ba9a6b7fa2595e29a954d9f3c99e",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/SnapshotCodec.kt",
+      "sourceSha256": "c726b08cb3abc4727ef6d20aa82a5d9ea173d4aac0366ca59ea9ace05aa368b5",
+      "snapshotSha256": "c726b08cb3abc4727ef6d20aa82a5d9ea173d4aac0366ca59ea9ace05aa368b5",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/SnapshotDao.java",
+      "sourceSha256": "6bff1732c4aab73c802ca2a51101333b0f9979569d35e92acdba5dba3537bb31",
+      "snapshotSha256": "6bff1732c4aab73c802ca2a51101333b0f9979569d35e92acdba5dba3537bb31",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/SnapshotEntity.java",
+      "sourceSha256": "ca374c98539dc70a309701921bf0ddaabd48b5bdd0681bce0943744e44635b69",
+      "snapshotSha256": "ca374c98539dc70a309701921bf0ddaabd48b5bdd0681bce0943744e44635b69",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/data/SyncEngine.kt",
+      "sourceSha256": "9d8f177f4ec81a8ad37e463a2d9f32a5a976f85f86292e26bdb92a553c9a0303",
+      "snapshotSha256": "9d8f177f4ec81a8ad37e463a2d9f32a5a976f85f86292e26bdb92a553c9a0303",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/designsystem/Components.kt",
+      "sourceSha256": "884af6e70ee6039f33ed0b7657532561edd36d228e9497d502d6f5f671a6e132",
+      "snapshotSha256": "884af6e70ee6039f33ed0b7657532561edd36d228e9497d502d6f5f671a6e132",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/designsystem/LifeOsComponents.kt",
+      "sourceSha256": "f72011106fd954b7beaeda70ee7e7f0aef5341a59d0d7c328135096b35498dac",
+      "snapshotSha256": "f72011106fd954b7beaeda70ee7e7f0aef5341a59d0d7c328135096b35498dac",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/designsystem/LifeOsPresentation.kt",
+      "sourceSha256": "f1a6048180855e609c3df9abb58a8f2c03c2f67a145f531c44004947a8d72b98",
+      "snapshotSha256": "f1a6048180855e609c3df9abb58a8f2c03c2f67a145f531c44004947a8d72b98",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/designsystem/Theme.kt",
+      "sourceSha256": "09af1da5607564671cf0cc60e080e36eac05d9efcec3c85ef7f46183ca97694f",
+      "snapshotSha256": "09af1da5607564671cf0cc60e080e36eac05d9efcec3c85ef7f46183ca97694f",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/LearningResources.kt",
+      "sourceSha256": "75c7a1148a3c71f5de7f7a65045dd1bfc5e8fbf2da8f705b1007ee246b699049",
+      "snapshotSha256": "75c7a1148a3c71f5de7f7a65045dd1bfc5e8fbf2da8f705b1007ee246b699049",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/Models.kt",
+      "sourceSha256": "fc21b1b780486019cb7157feb42e0dbbd661329bf5141a3b006e5593b3cddeb2",
+      "snapshotSha256": "fc21b1b780486019cb7157feb42e0dbbd661329bf5141a3b006e5593b3cddeb2",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/PeriodReview.kt",
+      "sourceSha256": "959b94eb3c7f32d98d21efeed52f3b1913f8a5453b45caf1fb03e562eb958a53",
+      "snapshotSha256": "959b94eb3c7f32d98d21efeed52f3b1913f8a5453b45caf1fb03e562eb958a53",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/RepeatRules.kt",
+      "sourceSha256": "078790800c36dde1800549f6e84c27edd28cee9ef3919242f8d3762ffbf2cdb3",
+      "snapshotSha256": "078790800c36dde1800549f6e84c27edd28cee9ef3919242f8d3762ffbf2cdb3",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/UnifiedTraining.kt",
+      "sourceSha256": "88e3a771c555dd28741c7269a539a569f2fca9584432927fd9270ce22fa43fb9",
+      "snapshotSha256": "88e3a771c555dd28741c7269a539a569f2fca9584432927fd9270ce22fa43fb9",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/core/model/UnifiedWorkoutDraft.kt",
+      "sourceSha256": "ab37c451ece4ea1559a7b070d7c9dd8c5f78143be9bd29d65f0dcd001cea6164",
+      "snapshotSha256": "ab37c451ece4ea1559a7b070d7c9dd8c5f78143be9bd29d65f0dcd001cea6164",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/calendar/CalendarScreen.kt",
+      "sourceSha256": "1be8a99da86f302bde10168b79cb9d666be95d892a079decb35fa1cdd2e3ac0b",
+      "snapshotSha256": "1be8a99da86f302bde10168b79cb9d666be95d892a079decb35fa1cdd2e3ac0b",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/calendar/ScheduleTimeMap.kt",
+      "sourceSha256": "0d7eb3e3702915ab4237a0d7b0631e9b19236bf581ebff0efbc4faa5808ac436",
+      "snapshotSha256": "0d7eb3e3702915ab4237a0d7b0631e9b19236bf581ebff0efbc4faa5808ac436",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/plans/CategoryPlanScreen.kt",
+      "sourceSha256": "26784caf0f06ef47ee133ed595b6acc4935ee70801a1e62299e82b2dfd1607db",
+      "snapshotSha256": "26784caf0f06ef47ee133ed595b6acc4935ee70801a1e62299e82b2dfd1607db",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/plans/ConflictScreen.kt",
+      "sourceSha256": "73e1fee8e9a1cfac2b4f4e2fc7faca998a76902ec287df231c9fc8a5654f1992",
+      "snapshotSha256": "73e1fee8e9a1cfac2b4f4e2fc7faca998a76902ec287df231c9fc8a5654f1992",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/plans/PlansScreen.kt",
+      "sourceSha256": "0e6b1442ab057f326c1bb85e2842e02d1c8d748440568df65f98cf81ba17ddb7",
+      "snapshotSha256": "0e6b1442ab057f326c1bb85e2842e02d1c8d748440568df65f98cf81ba17ddb7",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/profile/DataScreen.kt",
+      "sourceSha256": "714bed66d0eb36f53768bcd8ca3fa6b6d353824a1ff543d6d2f43f25ae379ce0",
+      "snapshotSha256": "714bed66d0eb36f53768bcd8ca3fa6b6d353824a1ff543d6d2f43f25ae379ce0",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/profile/ProfileScreen.kt",
+      "sourceSha256": "80a6cdcebe9c22ac3acc611727935c9fbee8b38a8ad5a37f4a2f6afab33be503",
+      "snapshotSha256": "80a6cdcebe9c22ac3acc611727935c9fbee8b38a8ad5a37f4a2f6afab33be503",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/profile/UpdateScreen.kt",
+      "sourceSha256": "43ca90de208369bca3995c57fedf1424a36d9efb5653cd5c34fd468e5bfd2ff6",
+      "snapshotSha256": "43ca90de208369bca3995c57fedf1424a36d9efb5653cd5c34fd468e5bfd2ff6",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/records/PeriodReviewScreen.kt",
+      "sourceSha256": "e5fc75ddb76a8106e82df73c5c679801db5db6a20d4c0dd009563a09466b2fcf",
+      "snapshotSha256": "e5fc75ddb76a8106e82df73c5c679801db5db6a20d4c0dd009563a09466b2fcf",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/records/RecordsScreen.kt",
+      "sourceSha256": "cca3d8b8152454bbda6b165f0ba5510a97da7a47f100fca7ae257981cfbd8b57",
+      "snapshotSha256": "cca3d8b8152454bbda6b165f0ba5510a97da7a47f100fca7ae257981cfbd8b57",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/sync/ConnectionScreen.kt",
+      "sourceSha256": "d0e37868ac1451913d2e408dbcfeeed50e298724ff3122bc045976d81bb1a6de",
+      "snapshotSha256": "d0e37868ac1451913d2e408dbcfeeed50e298724ff3122bc045976d81bb1a6de",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/today/RepeatSettings.kt",
+      "sourceSha256": "1af07f9b9e8bb87d04ffbb3bc8cb0f14a64d35c19d09e4e7d66150727604e2d5",
+      "snapshotSha256": "1af07f9b9e8bb87d04ffbb3bc8cb0f14a64d35c19d09e4e7d66150727604e2d5",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/today/TaskScreens.kt",
+      "sourceSha256": "a7c19a254ffc9e2c8e9ddabc03a68f4baf145c2fcdc3ac1da68ad97d8317a8c1",
+      "snapshotSha256": "a7c19a254ffc9e2c8e9ddabc03a68f4baf145c2fcdc3ac1da68ad97d8317a8c1",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/today/TodayScreen.kt",
+      "sourceSha256": "b54173f123657def39d6e86a1ce79f06c9923a4cf9b888ece8fd61293813877b",
+      "snapshotSha256": "b54173f123657def39d6e86a1ce79f06c9923a4cf9b888ece8fd61293813877b",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/CameraPanel.kt",
+      "sourceSha256": "fee5d580c51c751bf982638de9b516b6db76ea685f43a129a5a1381335e4c28a",
+      "snapshotSha256": "fee5d580c51c751bf982638de9b516b6db76ea685f43a129a5a1381335e4c28a",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/FeedbackGate.kt",
+      "sourceSha256": "6ead60a640d5aa1f2d1dac91733fdfdd6a57b9d667fb7da788429e5fb323b8cf",
+      "snapshotSha256": "6ead60a640d5aa1f2d1dac91733fdfdd6a57b9d667fb7da788429e5fb323b8cf",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/LocalPoseDetector.kt",
+      "sourceSha256": "52d035c57edbe337242e3a8c55fdb6b7c2e552688b9ac0aaf293fe05cb325060",
+      "snapshotSha256": "52d035c57edbe337242e3a8c55fdb6b7c2e552688b9ac0aaf293fe05cb325060",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/PoseRepCounter.kt",
+      "sourceSha256": "861bf4eb4603d1e8f38d2f7826ab4ff9e8b54e9049d83cafd448a35943b93d3e",
+      "snapshotSha256": "861bf4eb4603d1e8f38d2f7826ab4ff9e8b54e9049d83cafd448a35943b93d3e",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/UnifiedWorkoutScreen.kt",
+      "sourceSha256": "5aed247e15613c408ce6adf885f0e7e5217fa04091bb92da44fea9a1f7af5e74",
+      "snapshotSha256": "5aed247e15613c408ce6adf885f0e7e5217fa04091bb92da44fea9a1f7af5e74",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/feature/workout/WorkoutScreen.kt",
+      "sourceSha256": "517470cd597d22949e1a0fc835d63347673587f0150f3c491a8ec7c9b2acfb75",
+      "snapshotSha256": "517470cd597d22949e1a0fc835d63347673587f0150f3c491a8ec7c9b2acfb75",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/java/com/trytobatter/app/MainActivity.kt",
+      "sourceSha256": "9c753b2ed24ae889d8f8699c31ed2fa2c566f82a7b8da790a6525c94217cda3b",
+      "snapshotSha256": "9c753b2ed24ae889d8f8699c31ed2fa2c566f82a7b8da790a6525c94217cda3b",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher.xml",
+      "sourceSha256": "a0c93b20871ecf611d17a43a923d4762bb8e96720660d66c696c13165e237c5c",
+      "snapshotSha256": "a0c93b20871ecf611d17a43a923d4762bb8e96720660d66c696c13165e237c5c",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/ttb_v3_calendar_header.png",
+      "sourceSha256": "c4cfdd66a1c59db58c0ec5a4a9d49f290b27edc907a9214b1864e1cc8ce5f03f",
+      "snapshotSha256": "c4cfdd66a1c59db58c0ec5a4a9d49f290b27edc907a9214b1864e1cc8ce5f03f",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/ttb_v3_plans_header.png",
+      "sourceSha256": "11e44b26f21474bd237fef463665af91b5227db5816e5b032844c4cb00e5d61e",
+      "snapshotSha256": "11e44b26f21474bd237fef463665af91b5227db5816e5b032844c4cb00e5d61e",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/ttb_v3_profile_header.png",
+      "sourceSha256": "3ad0f41cc194e20c5d232a6a78cee973bda8a63381192cc3f3bc9159d24615e1",
+      "snapshotSha256": "3ad0f41cc194e20c5d232a6a78cee973bda8a63381192cc3f3bc9159d24615e1",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/ttb_v3_records_header.png",
+      "sourceSha256": "b7dd6dd95859103102b96eeb83688c0f1295892357d99c4b36daca30608c55ee",
+      "snapshotSha256": "b7dd6dd95859103102b96eeb83688c0f1295892357d99c4b36daca30608c55ee",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/ttb_v3_today_header.png",
+      "sourceSha256": "47feb3b21be15cb3f8ea4d9903e25b4d6bf1fdb454aa7d0c5786ae4e403327b8",
+      "snapshotSha256": "47feb3b21be15cb3f8ea4d9903e25b4d6bf1fdb454aa7d0c5786ae4e403327b8",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "sourceSha256": "4cf05422d1f7009b8c442def5785d49a0aab29bd21750630781a1b12bb364320",
+      "snapshotSha256": "4cf05422d1f7009b8c442def5785d49a0aab29bd21750630781a1b12bb364320",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/xml/data_extraction_rules.xml",
+      "sourceSha256": "11e4ae73a114606dea6f218f32d5228cef7d71b0caeea4e15383508021f91458",
+      "snapshotSha256": "11e4ae73a114606dea6f218f32d5228cef7d71b0caeea4e15383508021f91458",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/main/res/xml/update_paths.xml",
+      "sourceSha256": "a9a7a920e5b368ff0ec60ee1e0ee164cd9b5b589063b26412c94c443a0edd46a",
+      "snapshotSha256": "a9a7a920e5b368ff0ec60ee1e0ee164cd9b5b589063b26412c94c443a0edd46a",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/AlarmRulesTest.kt",
+      "sourceSha256": "43aaaee20694d38f0099d693cad48c842ca1b4da3e3c6b97ca5583909fbbd4b1",
+      "snapshotSha256": "43aaaee20694d38f0099d693cad48c842ca1b4da3e3c6b97ca5583909fbbd4b1",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/ClockRoutingRulesTest.kt",
+      "sourceSha256": "52ca03e89a90a442b555f78c51b33f386f3d0de61e3d2682856cbf6d2190e873",
+      "snapshotSha256": "52ca03e89a90a442b555f78c51b33f386f3d0de61e3d2682856cbf6d2190e873",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/LearningResourcesTest.kt",
+      "sourceSha256": "bc5d6f2b725f91d06229d3941aaada130d5180306bb9809e521684baaa78243d",
+      "snapshotSha256": "bc5d6f2b725f91d06229d3941aaada130d5180306bb9809e521684baaa78243d",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/LifeOsPresentationTest.kt",
+      "sourceSha256": "4eaf041bb2d9527d47506fdd37a3fdce50866bf693f0a5bb835b9e9aad8fb42e",
+      "snapshotSha256": "4eaf041bb2d9527d47506fdd37a3fdce50866bf693f0a5bb835b9e9aad8fb42e",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/PeriodReviewTest.kt",
+      "sourceSha256": "6d75080ba8bcddc144b28a37347e5c636a10abe1bcbab3a0d0e46617a41d13e6",
+      "snapshotSha256": "6d75080ba8bcddc144b28a37347e5c636a10abe1bcbab3a0d0e46617a41d13e6",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/PoseRepCounterTest.kt",
+      "sourceSha256": "ae8ee272e36268e58960a8745001845a317b45046aebda2843db10417e37262c",
+      "snapshotSha256": "ae8ee272e36268e58960a8745001845a317b45046aebda2843db10417e37262c",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/RepeatRulesTest.kt",
+      "sourceSha256": "7925c4a174f6c41d627b7350dc17d87b1af3eae2faac2dde3b82aef325e12b35",
+      "snapshotSha256": "7925c4a174f6c41d627b7350dc17d87b1af3eae2faac2dde3b82aef325e12b35",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/TaskRulesTest.kt",
+      "sourceSha256": "284aae42ea8b5d983574f4b1e97061fd7511480d36d2010f7886a37c0b21e21e",
+      "snapshotSha256": "284aae42ea8b5d983574f4b1e97061fd7511480d36d2010f7886a37c0b21e21e",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/TimelineClockRulesTest.kt",
+      "sourceSha256": "bc5a9fef5d906813c0e72910607a0abd0d4f2ad351318e68988d16b724377981",
+      "snapshotSha256": "bc5a9fef5d906813c0e72910607a0abd0d4f2ad351318e68988d16b724377981",
+      "unchanged": true
+    },
+    {
+      "path": "android/app/src/test/java/com/trytobatter/app/UnifiedTrainingTest.kt",
+      "sourceSha256": "0673216990aca072107e173223fe23215778b571299697861d718e37712bb419",
+      "snapshotSha256": "0673216990aca072107e173223fe23215778b571299697861d718e37712bb419",
+      "unchanged": true
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "sourceSha256": "caa8cff441521de407cae1175d94218a6b835436956d5d88f45444591d908011",
+      "snapshotSha256": "caa8cff441521de407cae1175d94218a6b835436956d5d88f45444591d908011",
+      "unchanged": true
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sourceSha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7",
+      "snapshotSha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7",
+      "unchanged": true
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sourceSha256": "e44bab2aa7ab6508c87f41392a3819c21c2ae6c0aa7dab6bf61dcce1fe1d123a",
+      "snapshotSha256": "e44bab2aa7ab6508c87f41392a3819c21c2ae6c0aa7dab6bf61dcce1fe1d123a",
+      "unchanged": true
+    },
+    {
+      "path": "android/gradle.properties",
+      "sourceSha256": "2acfa18c96ce0935d99fbfbee83ed0948c11cb99173783a61b4e7e292b6c1b1b",
+      "snapshotSha256": "2acfa18c96ce0935d99fbfbee83ed0948c11cb99173783a61b4e7e292b6c1b1b",
+      "unchanged": true
+    },
+    {
+      "path": "android/gradlew",
+      "sourceSha256": "ab5c0cad16305af2e619c159c1f58dd68d07fab9c11e36701e109c0277407f7a",
+      "snapshotSha256": "ab5c0cad16305af2e619c159c1f58dd68d07fab9c11e36701e109c0277407f7a",
+      "unchanged": true
+    },
+    {
+      "path": "android/gradlew.bat",
+      "sourceSha256": "475c4f08cd57cf2faa819e7f36d72aa93f0ad646ea23a8f7fa3ef54dee1cbc52",
+      "snapshotSha256": "475c4f08cd57cf2faa819e7f36d72aa93f0ad646ea23a8f7fa3ef54dee1cbc52",
+      "unchanged": true
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "sourceSha256": "3c0f1b1ddcb2799bc5fc832edc61258d3dc9a208a14e6324d80d9e90c8e1de1b",
+      "snapshotSha256": "3c0f1b1ddcb2799bc5fc832edc61258d3dc9a208a14e6324d80d9e90c8e1de1b",
+      "unchanged": true
+    },
+    {
+      "path": "server/server.py",
+      "sourceSha256": "819f5556741eb5e892c7873e874560febebb96a96ff9c2ac62d703112eb5ae1d",
+      "snapshotSha256": "819f5556741eb5e892c7873e874560febebb96a96ff9c2ac62d703112eb5ae1d",
+      "unchanged": true
+    },
+    {
+      "path": "server/test_server.py",
+      "sourceSha256": "fc8dbb4664177ef8a7ba34be24b18e6f4e75223e31d639bdbd2b58716f4caa78",
+      "snapshotSha256": "fc8dbb4664177ef8a7ba34be24b18e6f4e75223e31d639bdbd2b58716f4caa78",
+      "unchanged": true,
+      "note": "HTTP update test now owns a temporary release fixture in the source project."
+    },
+    {
+      "path": "server/e2e_server.py",
+      "sourceSha256": "a787c0af921f368069f351c42138b006834b40bacf14618960ec1453edbeca62",
+      "snapshotSha256": "a787c0af921f368069f351c42138b006834b40bacf14618960ec1453edbeca62",
+      "unchanged": true
+    },
+    {
+      "path": "server/启动电脑服务.ps1",
+      "sourceSha256": "8505eec902177dd2f3ef51e2627eb71d75231af3da5f792de2b412fc6e397835",
+      "snapshotSha256": "6fcb00f624013b644e3bdb62d7eb3a1eeb18f911e02a9c9cec6dd2cb31af83a7",
+      "unchanged": false,
+      "change": "Discover Python using PATH in the shared launcher."
+    },
+    {
+      "path": "server/启用登录自动启动.ps1",
+      "sourceSha256": "ad8c3ee951e4acc9eab3747a3f22bd6c6aa209e700535ccdff94600d35b8b6cb",
+      "snapshotSha256": "ad8c3ee951e4acc9eab3747a3f22bd6c6aa209e700535ccdff94600d35b8b6cb",
+      "unchanged": true
+    },
+    {
+      "path": "server/web/app.js",
+      "sourceSha256": "6d8024545b4786749c0db950f8dd51caddeb731103eadde5481f48d9f3828c8f",
+      "snapshotSha256": "6d8024545b4786749c0db950f8dd51caddeb731103eadde5481f48d9f3828c8f",
+      "unchanged": true
+    },
+    {
+      "path": "server/web/index.html",
+      "sourceSha256": "3f63dfb780dbdfff0c204f3589f156f6ce12c311921ac9865f4570ff695ff858",
+      "snapshotSha256": "3f63dfb780dbdfff0c204f3589f156f6ce12c311921ac9865f4570ff695ff858",
+      "unchanged": true
+    },
+    {
+      "path": "server/web/style.css",
+      "sourceSha256": "8409743a5ce83107cfdc5980c13f681bbe36a37faefaa809843e4b18408c2a98",
+      "snapshotSha256": "8409743a5ce83107cfdc5980c13f681bbe36a37faefaa809843e4b18408c2a98",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/check-recovered-workout.py",
+      "sourceSha256": "60f4c88d052579bdaedafa80fb69ecde65c8c2b6d3b7e206ff1248eb519fe483",
+      "snapshotSha256": "60f4c88d052579bdaedafa80fb69ecde65c8c2b6d3b7e206ff1248eb519fe483",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/publish-preview.ps1",
+      "sourceSha256": "d0627f7fefb68a1697b23e723baa49ac0bcea79b38026b487620d21e6b6a01dc",
+      "snapshotSha256": "d0627f7fefb68a1697b23e723baa49ac0bcea79b38026b487620d21e6b6a01dc",
+      "unchanged": true
+    }
+  ],
+  "personalRuntimeDataIncluded": false,
+  "scope": "Android and companion-service source snapshot; portable launcher and documentation; recipe page is an explicit placeholder.",
+  "omittedOptionalFixture": "android/app/src/androidTest/assets/pose-smoke.jpg; see adjacent README."
+}

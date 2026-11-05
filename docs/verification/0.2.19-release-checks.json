@@ -1,0 +1,44 @@
+{
+  "versionName": "0.2.19",
+  "versionCode": 21,
+  "apkSha256": "a9a75166bcb426fe98d66dbb347b3560f5dace42e108c66f32b5cf3d7db0e251",
+  "buildPassed": true,
+  "signatureVerified": true,
+  "signatureMatchesPrevious": true,
+  "apkManifestVerified": true,
+  "permissionsUnchanged": true,
+  "dataSchemaUnchanged": true,
+  "fullRegressionPassed": false,
+  "unitTests": [
+    {
+      "name": "com.trytobatter.app.PeriodReviewTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.RepeatRulesTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.TaskRulesTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.UnifiedTrainingTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "serverTests": 20,
+  "androidUiAcceptance": "not_run_phone_user_acceptance_pending",
+  "emulatorStarted": false,
+  "lintStatus": "not_run_user_requested",
+  "recurrenceStrategy": "all_instances_materialized_through_inclusive_end_date_max_one_year",
+  "scope": "Recorded checks of the original 0.2.19 preview APK; not phone acceptance of this GitHub snapshot."
+}

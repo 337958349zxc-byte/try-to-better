@@ -1,0 +1,19 @@
+{
+  "snapshotDate": "2026-11-05",
+  "applicationVersion": "0.2.19",
+  "sourceFilesChecked": 118,
+  "productionAndroidSourceCopiedUnchanged": true,
+  "sourceHashesMatch": true,
+  "pythonSyntaxPassed": true,
+  "runtimeDataAndCredentialScanPassed": true,
+  "serverTests": {
+    "tests": 20,
+    "failures": 0,
+    "errors": 0,
+    "environment": "local isolated HTTP and temporary SQLite"
+  },
+  "androidRebuild": "not_run_production_source_unchanged",
+  "phoneAcceptance": "not_run",
+  "recipeContent": "explicit placeholder, personal data omitted",
+  "optionalPoseTestImage": "not_included"
+}

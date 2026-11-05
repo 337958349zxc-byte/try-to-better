@@ -1,0 +1,4 @@
+*.png -text
+*.jpg -text
+*.jar -text
+*.task -text
