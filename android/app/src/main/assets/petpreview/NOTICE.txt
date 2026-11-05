@@ -1,0 +1,6 @@
+作者：YunYueSama
+仓库：https://github.com/YunYueSama/codex-deepseek-pet
+上游版本：7661c8b304c5400701f91da01b1a643a207331de
+
+本预览由 Try to Better 适配。修改：完整帧选取、等比例缩小、重新排列及无损 WebP 编码；未重绘角色；头像在界面内采用原 portrait 的头肩取景。动画顺序与时间参考上游 src/renderer/motion.js（同一许可）。
+随附 LICENSE 与 ASSET_LICENSE.md 原文。本许可仅涵盖作者有权授权的贡献，不等于底层社区角色设计、参考图片、商标的完整授权，不代表 DeepSeek 官方认可。未打包授权未确认的社区参考原图。商业公开分发前仍须确认第三方角色等权利。

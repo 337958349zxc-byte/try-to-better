@@ -1,0 +1,108 @@
+{
+  "versionName": "0.2.20",
+  "versionCode": 22,
+  "packageName": "com.trytobatter.app",
+  "apkSha256": "1df86c2b53f7eaeaf7dc444c7d917e3626580deb29ff9e46f160599d5c4491e3",
+  "apkBytes": 102636126,
+  "buildPassed": true,
+  "androidTestBuildPassed": true,
+  "signatureVerified": true,
+  "signatureMatchesPrevious": true,
+  "certificateSha256": "1057efb95b0b5b8df25d3a02993a0d9d56f11dfb95e248f52741cfb029238709",
+  "apkManifestVerified": true,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "permissionsUnchanged": true,
+  "dataSchemaUnchanged": true,
+  "verificationScope": "affected_features_and_core_dependencies",
+  "lintStatus": "passed",
+  "lintErrors": 0,
+  "lintWarnings": 28,
+  "fullRegressionPassed": false,
+  "unitTests": [
+    {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "name": "com.trytobatter.app.PeriodReviewTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "name": "com.trytobatter.app.PetPreviewRulesTest"
+    },
+    {
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "name": "com.trytobatter.app.RepeatRulesTest"
+    },
+    {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "name": "com.trytobatter.app.TaskRulesTest"
+    },
+    {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "name": "com.trytobatter.app.UnifiedTrainingTest"
+    }
+  ],
+  "instrumentation": {
+    "pet-ui-393.log": 2,
+    "pet-ui-360.log": 2
+  },
+  "androidUiAcceptance": "dedicated_emulator_only_physical_phone_pending",
+  "serverTests": "not_run_backend_unchanged",
+  "testHost": "ComponentActivity; never initializes the business repository or resets data",
+  "emulator": {
+    "api": 32,
+    "android": "12",
+    "pixelSize": [
+      1080,
+      2400
+    ],
+    "configurations": [
+      {
+        "widthDp": 393,
+        "densityDpi": 440,
+        "testsPassed": 2
+      },
+      {
+        "widthDp": 360,
+        "densityDpi": 480,
+        "testsPassed": 2
+      }
+    ]
+  },
+  "screenshots": {
+    "originals": 18,
+    "overview": 1,
+    "staticCaptureAnimations": false,
+    "activeWalkAndPauseTest": true
+  },
+  "assetChecks": {
+    "atlases": 8,
+    "frames": 96,
+    "bytes": 8347350,
+    "alphaAndCellBoundsPassed": true,
+    "sourceBlobsPinned": true,
+    "apkAssetsMatchSource": true
+  },
+  "upstream": "https://github.com/YunYueSama/codex-deepseek-pet",
+  "upstreamCommit": "7661c8b304c5400701f91da01b1a643a207331de",
+  "baseMainCommit": "91949f3b190f6293e832698cd2681afd66e12c31",
+  "newPermissions": [],
+  "realSystemOverlay": false,
+  "realAiApi": false,
+  "dataProtection": "Core/model/Room/snapshot/sync, Manifest and server tracked source unchanged. Independent fixtures only. 84 main files match original development copy.",
+  "limits": [
+    "Physical phone visual/gesture/audio/performance acceptance pending",
+    "No full regression, camera or new backend checks",
+    "Underlying community character/reference/trademark rights not fully cleared by upstream contribution license"
+  ],
+  "verifiedAt": "2026-11-05T19:29:11+08:00"
+}

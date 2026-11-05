@@ -1,6 +1,7 @@
 # try to better
 
 - This is a reviewed source/documentation snapshot of Android 0.2.19/code21. Start with README.md, PROJECT_BRIEF.md, docs/ARCHITECTURE.md and docs/STATUS.md.
+- Android 0.2.20/code22 adds an isolated app-contained pet preview. Read docs/pet/ANDROID_PET_DESIGN_V1.md. Preserve upstream attribution and full custom license; community reference originals are excluded. Preview plans/chat are fixtures, not live data. Real overlays, background services and AI integration require a separate phase.
 - Preserve the single-module Kotlin/Compose/Material 3 app and Python/SQLite LAN companion structure unless an explicit change requires otherwise.
 - Keep planned tasks, actual execution, local save, server acknowledgement, automatic counts, manual confirmation and quality feedback separate.
 - Protect started/paused/completed history, execution snapshots, offline edits and explicit sync conflict choices.

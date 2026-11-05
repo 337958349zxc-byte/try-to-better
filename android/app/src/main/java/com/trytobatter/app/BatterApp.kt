@@ -32,6 +32,7 @@ import com.trytobatter.app.feature.plans.*
 import com.trytobatter.app.feature.records.RecordsScreen
 import com.trytobatter.app.feature.records.PeriodReviewScreen
 import com.trytobatter.app.feature.profile.*
+import com.trytobatter.app.feature.petpreview.PetPreviewScreen
 import com.trytobatter.app.feature.sync.ConnectionScreen
 import com.trytobatter.app.feature.workout.WorkoutScreen
 import com.trytobatter.app.feature.workout.WorkoutDraft
@@ -132,7 +133,8 @@ private val tabs = listOf(Tab("today", "今天", Icons.Outlined.Today), Tab("cal
                     composable("category/{name}") { e -> CategoryPlanScreen(Category.valueOf(e.arguments?.getString("name") ?: "LIFE"), state, ::back, ::task, { edit() }, { recipes() }) }
                     composable("records") { RecordsScreen(state, { correctionId = it }, { nav.navigate("data") }, { nav.navigate("review") }) }
                     composable("review") { PeriodReviewScreen(state, ::back, { correctionId = it }, vm::notify) }
-                    composable("profile") { ProfileScreen(state, { nav.navigate("connection") }, { nav.navigate("data") }, { nav.navigate("update") },alarms,{vm.perform {refreshAlarms()}}) }
+                    composable("profile") { ProfileScreen(state, { nav.navigate("connection") }, { nav.navigate("data") }, { nav.navigate("update") },alarms,{vm.perform {refreshAlarms()}}, onPetPreview = { nav.navigate("petpreview") }) }
+                    composable("petpreview") { PetPreviewScreen(::back) }
                     composable("task/{id}") { e -> val id = e.arguments?.getString("id").orEmpty(); val t = state.tasks.find { it.id == id }
                         TaskDetailScreen(t, elapsed, ::back, { edit(id) }, { t?.let(::start) }, { vm.perform("计时已暂停") { pauseTask(id) } },
                             { outcomeTaskId = id }, { nav.navigate("workout?taskId=$id") }, { following -> vm.perform("事项已删除，变更保存在本机", true, ::back) { deleteTask(id, following) } }, vm::notify, { recipes(t?.resourceUrl.orEmpty()) },

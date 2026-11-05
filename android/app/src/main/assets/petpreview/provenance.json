@@ -1,0 +1,272 @@
+{
+  "author": "YunYueSama",
+  "repository": "https://github.com/YunYueSama/codex-deepseek-pet",
+  "commit": "7661c8b304c5400701f91da01b1a643a207331de",
+  "license": "大肥鱼项目署名许可 1.0 (custom, not MIT)",
+  "assets": [
+    {
+      "output": "idle.webp",
+      "source": "assets/whale/idle-front.png",
+      "sourceSha256": "79d3952acfe7620e0c2cfe7b80e9e6793d5f115252962f81cd56778402f4cdcd",
+      "sourceGitBlob": "e19f88b5826aba89ea2aa0d086d31d40c9def912",
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "sourceCell": 1024,
+      "sourceColumns": 2,
+      "sourceFrames": [
+        0,
+        1
+      ],
+      "cell": 512,
+      "columns": 2,
+      "frames": 2,
+      "sha256": "582f8db6508458144f266389c82b3bf57804757b4b940487d1c02136b1840625",
+      "bytes": 263268,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "walk.webp",
+      "source": "assets/whale/inbetween-walk.png",
+      "sourceSha256": "5099d6537802f7a2c37477f0c28c6970dfb591dd586cdd10ee7a1afacf784bf5",
+      "sourceGitBlob": "c84213762f8cba68b4d502dd13771983831763e9",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "sourceCell": 512,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "cell": 384,
+      "columns": 4,
+      "frames": 16,
+      "sha256": "0ba25576fd82212ecce690ed83837093b82fc8d98358d4a8c88ff5232ef1569a",
+      "bytes": 1380768,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "think.webp",
+      "source": "assets/whale/story-token.png",
+      "sourceSha256": "adea92450d09b804bde8e49b977aa24e7b46088d0cc36c7aaba22811d048b1bf",
+      "sourceGitBlob": "50edf1bab5aa1de428f6e39bb12c8b8d39fc10f3",
+      "sourceSize": [
+        1536,
+        3072
+      ],
+      "sourceCell": 384,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        0,
+        1,
+        2
+      ],
+      "cell": 384,
+      "columns": 3,
+      "frames": 3,
+      "sha256": "31f4dfd7bfd2a99f82714013431ddcfd70049fc4ddf8be4cae418c8d578badde",
+      "bytes": 259486,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "talk.webp",
+      "source": "assets/whale/dense-wave.png",
+      "sourceSha256": "d55956f8d50c321760cefa52d594fd93fd804a9c3efa22a0b371e4a601138246",
+      "sourceGitBlob": "f9fc5cf57b041e6b30d2ee6abd10a34602b09554",
+      "sourceSize": [
+        2048,
+        4096
+      ],
+      "sourceCell": 512,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "cell": 384,
+      "columns": 4,
+      "frames": 16,
+      "sha256": "a314e3603bef9191aca1138a987fe50c23fb1460306927b336706a65d51e5811",
+      "bytes": 1461466,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "happy.webp",
+      "source": "assets/whale/dense-dance.png",
+      "sourceSha256": "f48d1a767a453ba8b291cb62d2b55cdb0c473e06b7a36b6afd73d56eebe5693c",
+      "sourceGitBlob": "2e181a99a7cf96ea902283fba9d65a67d1f96e66",
+      "sourceSize": [
+        2048,
+        4096
+      ],
+      "sourceCell": 512,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "cell": 384,
+      "columns": 4,
+      "frames": 16,
+      "sha256": "d2265c145ed50a6b25e8540ac1260da40dc161d9e1863190faad33e5d78b43d6",
+      "bytes": 1475610,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "remind.webp",
+      "source": "assets/whale/inbetween-jump.png",
+      "sourceSha256": "bd20261358afc94b31f853185535339fe2bdb3ab41e228d041a291b306bf561e",
+      "sourceGitBlob": "57a799bdb58d7347f1ae5a0ef2162d9bc570fc5e",
+      "sourceSize": [
+        2048,
+        6144
+      ],
+      "sourceCell": 512,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        0,
+        1,
+        3,
+        34,
+        5,
+        35,
+        7,
+        36,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        45,
+        27,
+        46,
+        29,
+        47,
+        31
+      ],
+      "cell": 384,
+      "columns": 4,
+      "frames": 23,
+      "sha256": "d81732a831cf00e21ce659c1389d8c00aa7fdbd83cdd535975f713141f4c1553",
+      "bytes": 1989498,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "sleep.webp",
+      "source": "assets/whale/inbetween-sleep.png",
+      "sourceSha256": "ae84e50e24b100895d4516641f9afba9805facd27175412a58a0d38decde789f",
+      "sourceGitBlob": "f7b68276899a3510c030f48de2800f69cf8aba9b",
+      "sourceSize": [
+        2048,
+        6144
+      ],
+      "sourceCell": 512,
+      "sourceColumns": 4,
+      "sourceFrames": [
+        1,
+        3,
+        5,
+        7,
+        35,
+        9,
+        11,
+        37,
+        13,
+        38,
+        17,
+        39,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "cell": 384,
+      "columns": 4,
+      "frames": 19,
+      "sha256": "8d0043766393058ce5f20ca325df813bda1a1318557aacbb080ad371b7ab0e18",
+      "bytes": 1490780,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    },
+    {
+      "output": "portrait.webp",
+      "source": "assets/whale/portrait.png",
+      "sourceSha256": "305ad2d0fa313df0a3ee16cd72ff4e7a5d89b6253b5a8fca2d06e40e682a563f",
+      "sourceGitBlob": "4afdeae2b6f5212c6c17006ff22847bfa5d4d57e",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "sourceCell": 1024,
+      "sourceColumns": 1,
+      "sourceFrames": [
+        0
+      ],
+      "cell": 192,
+      "columns": 1,
+      "frames": 1,
+      "sha256": "be4409be141906847d528ed33f7b3f588cd2f1f17831a61782e79e122ddba3a6",
+      "bytes": 26474,
+      "alpha": true,
+      "modifications": "Select complete source cells in upstream playback order; uniform Lanczos downsample; repack; lossless WebP. No drawing, recoloring or body-part compositing."
+    }
+  ]
+}
