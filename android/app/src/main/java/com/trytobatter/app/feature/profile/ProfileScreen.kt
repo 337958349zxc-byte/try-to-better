@@ -30,7 +30,7 @@ import com.trytobatter.app.core.alarm.*
 import com.trytobatter.app.core.designsystem.*
 import com.trytobatter.app.core.model.*
 
-@Composable fun ProfileScreen(state: AppSnapshot, onConnection: () -> Unit, onData: () -> Unit, onUpdate: () -> Unit, alarms: AlarmSnapshot = AlarmSnapshot(), onAlarmRefresh: ()->Unit = {}) {
+@Composable fun ProfileScreen(state: AppSnapshot, onConnection: () -> Unit, onData: () -> Unit, onUpdate: () -> Unit, alarms: AlarmSnapshot = AlarmSnapshot(), onAlarmRefresh: ()->Unit = {}, onPetPreview: () -> Unit = {}, onDesktopPet: () -> Unit = {}) {
     val context = LocalContext.current
     var dialog by remember { mutableStateOf("") }
     var showAlarms by remember { mutableStateOf(false) }
@@ -53,6 +53,11 @@ import com.trytobatter.app.core.model.*
             }
         } }
         item {SettingsGroup {SettingsRow(Icons.Outlined.SystemUpdate,"App 更新","当前 ${context.packageManager.getPackageInfo(context.packageName,0).versionName} · 检查可用更新",onUpdate)}}
+        item { SettingsGroup {
+            SettingsRow(Icons.Outlined.Pets, "桌面大肥鱼", "离开App也能显示 · 拖动贴边 · 随时关闭", onDesktopPet)
+            HorizontalDivider(color=MaterialTheme.colorScheme.outlineVariant)
+            SettingsRow(Icons.Outlined.AutoAwesome, "大肥鱼桌宠预览", "透明角色 · 拖动互动 · 本地模拟聊天", onPetPreview)
+        } }
         item { FoldHeader("权限与体验","闹钟、摄像头与系统字号 · ${alarms.records.values.count {it.state in setOf(AlarmState.NEEDS_PERMISSION,AlarmState.SCHEDULE_ERROR)}}项提醒需处理",permissionsExpanded,{permissionsExpanded=!permissionsExpanded},Icons.Outlined.Tune,"profile-permissions") }
         if(permissionsExpanded) item { SettingsGroup {
             SettingsRow(Icons.Outlined.NotificationsNone, "通知和闹钟", "${alarms.settings.values.count {it.enabled}}项开启 · ${alarms.records.values.count {it.state==AlarmState.NEEDS_PERMISSION || it.state==AlarmState.SCHEDULE_ERROR}}项需处理") {showAlarms=true}

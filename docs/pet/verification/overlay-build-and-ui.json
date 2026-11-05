@@ -1,0 +1,108 @@
+{
+  "versionName": "0.2.21",
+  "versionCode": 23,
+  "packageName": "com.trytobatter.app",
+  "apkSha256": "a973d05349005e3aab3472bf3b60931e4afddf53e07a76f4c30e158fecd7d4bf",
+  "apkBytes": 102732014,
+  "buildPassed": true,
+  "androidTestBuildPassed": true,
+  "signatureVerified": true,
+  "signatureMatchesPrevious": true,
+  "certificateSha256": "1057efb95b0b5b8df25d3a02993a0d9d56f11dfb95e248f52741cfb029238709",
+  "apkManifestVerified": true,
+  "permissionsUnchanged": false,
+  "permissionsAdded": [
+    "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "android.permission.SYSTEM_ALERT_WINDOW"
+  ],
+  "permissionsRemoved": [],
+  "permissionDiffExpected": true,
+  "dataSchemaUnchanged": true,
+  "verificationScope": "affected_features_and_core_dependencies",
+  "fullRegressionPassed": false,
+  "lintStatus": "passed",
+  "lintErrors": 0,
+  "lintWarnings": 28,
+  "unitTests": [
+    {
+      "name": "com.trytobatter.app.PeriodReviewTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.PetOverlayRulesTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.PetPreviewRulesTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.RepeatRulesTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.TaskRulesTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.trytobatter.app.UnifiedTrainingTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "instrumentation": {
+    "pet-overlay-home.log": 1,
+    "pet-overlay-notification.log": 1
+  },
+  "realSystemOverlay": true,
+  "realAiApi": false,
+  "overlayWindowType": 2038,
+  "pixelFormat": "TRANSLUCENT",
+  "foregroundServiceType": "specialUse",
+  "emulatorApi": 32,
+  "phoneViewport": [
+    1080,
+    2400
+  ],
+  "resizedViewport": [
+    1080,
+    2160
+  ],
+  "focusedDesktop": "app.lawnchair/.LawnchairLauncher",
+  "testHost": "PetOverlayActivity only; no MainActivity, business repository or data resets",
+  "uiChecks": [
+    "System permission rejected and accepted through actual Settings UI",
+    "Actual runtime status and Launcher focus",
+    "Transparent character outside the app",
+    "Tap/drag/edge dock",
+    "Offline chat entry and reply",
+    "Size/quiet mode",
+    "Close clears window and notification",
+    "Available display area change",
+    "Foreground notification stop action"
+  ],
+  "assetHashesUnchangedFrom": "0.2.20",
+  "productionMainFilesMatchOriginalDevelopmentCopy": 88,
+  "upstreamAuthor": "YunYueSama",
+  "upstreamCommit": "7661c8b304c5400701f91da01b1a643a207331de",
+  "limits": [
+    "API34+ foreground service branch and physical Xiaomi/Android17 behavior pending phone acceptance",
+    "Sensor rotation, split screen, keyboard and foldables not accepted by emulator area-resize test",
+    "Lockscreen and permission-revocation handling implemented but not part of the two automated scenarios",
+    "Long-run battery, OEM background survival and full regression not run",
+    "AI and live task data integration absent"
+  ],
+  "verifiedAt": "2026-11-05T20:45:06+08:00",
+  "overlayComponentsExported": false
+}

@@ -9,6 +9,8 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
@@ -35,6 +37,10 @@
             android:name=".core.alarm.TaskAlarmActivity"
             android:exported="false" android:showWhenLocked="true" android:turnScreenOn="true" />
         <service android:name=".core.alarm.TaskAlarmService" android:exported="false" android:foregroundServiceType="systemExempted" />
+        <activity android:name=".feature.petoverlay.PetOverlayActivity" android:exported="false" android:launchMode="singleTop" android:windowSoftInputMode="adjustResize" />
+        <service android:name=".feature.petoverlay.PetOverlayService" android:exported="false" android:stopWithTask="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="User-enabled interactive desktop pet overlay with a visible character and ongoing stop control" />
+        </service>
         <receiver android:name=".core.alarm.TaskAlarmReceiver" android:exported="false" />
         <receiver android:name=".core.alarm.TaskAlarmActionReceiver" android:exported="false" />
         <receiver android:name=".core.alarm.TaskAlarmRestoreReceiver" android:exported="false">

@@ -11,8 +11,8 @@ android {
         applicationId = "com.trytobatter.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = providers.gradleProperty("appVersionCode").orElse("21").get().toInt()
-        versionName = providers.gradleProperty("appVersionName").orElse("0.2.19").get()
+        versionCode = providers.gradleProperty("appVersionCode").orElse("23").get().toInt()
+        versionName = providers.gradleProperty("appVersionName").orElse("0.2.21").get()
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures { compose = true }
