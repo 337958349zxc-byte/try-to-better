@@ -1,5 +1,7 @@
 # Try to Better · Android 大肥鱼桌宠 V1
 
+后续0.2.21已增加用户明确要求的[真实系统悬浮窗](ANDROID_PET_OVERLAY_V1.md)。本文保留0.2.20视觉原型的范围和验证记录。
+
 ## 范围与基线
 
 基于目标仓库 main `91949f3b190f6293e832698cd2681afd66e12c31`（0.2.19 / code21）检查后设计。工程为单 app Gradle 模块，Kotlin / Compose / Material 3，五主页面由 `BatterApp.kt` 导航，Room 保存 JSON 快照，电脑同步独立。此功能仅新增 `feature/petpreview/`、本地素材、我的页入口与二级路由。业务模型、数据库、同步、训练、提醒保持原实现。

@@ -133,7 +133,7 @@ private val tabs = listOf(Tab("today", "今天", Icons.Outlined.Today), Tab("cal
                     composable("category/{name}") { e -> CategoryPlanScreen(Category.valueOf(e.arguments?.getString("name") ?: "LIFE"), state, ::back, ::task, { edit() }, { recipes() }) }
                     composable("records") { RecordsScreen(state, { correctionId = it }, { nav.navigate("data") }, { nav.navigate("review") }) }
                     composable("review") { PeriodReviewScreen(state, ::back, { correctionId = it }, vm::notify) }
-                    composable("profile") { ProfileScreen(state, { nav.navigate("connection") }, { nav.navigate("data") }, { nav.navigate("update") },alarms,{vm.perform {refreshAlarms()}}, onPetPreview = { nav.navigate("petpreview") }) }
+                    composable("profile") { ProfileScreen(state, { nav.navigate("connection") }, { nav.navigate("data") }, { nav.navigate("update") },alarms,{vm.perform {refreshAlarms()}}, onPetPreview = { nav.navigate("petpreview") }, onDesktopPet = { context.startActivity(android.content.Intent(context, com.trytobatter.app.feature.petoverlay.PetOverlayActivity::class.java)) }) }
                     composable("petpreview") { PetPreviewScreen(::back) }
                     composable("task/{id}") { e -> val id = e.arguments?.getString("id").orEmpty(); val t = state.tasks.find { it.id == id }
                         TaskDetailScreen(t, elapsed, ::back, { edit(id) }, { t?.let(::start) }, { vm.perform("计时已暂停") { pauseTask(id) } },

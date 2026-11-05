@@ -2,9 +2,11 @@
 
 Android 原生个人计划执行工具：把学习、训练、饮食和生活安排放在同一日程中，记录实际执行，并通过配对电脑进行同步与复盘。
 
-**当前预览：0.2.20 / code22。** 在0.2.19整理快照上新增独立的大肥鱼桌宠视觉与交互预览。个人运行数据库、真实菜单、私人日程、配对信息、签名密钥和本地配置未纳入仓库。
+**当前预览：0.2.21 / code23。** 在0.2.19整理快照上新增独立的大肥鱼桌宠及原有视觉预览。个人运行数据库、真实菜单、私人日程、配对信息、签名密钥和本地配置未纳入仓库。
 
-**[大肥鱼桌宠 V1 设计、素材授权与运行说明](docs/pet/ANDROID_PET_DESIGN_V1.md)** · **[手机尺寸截图](docs/pet/SCREENSHOTS.md)**。入口：我的 → 大肥鱼桌宠预览。复用 YunYueSama 的 [codex-deepseek-pet](https://github.com/YunYueSama/codex-deepseek-pet) 原有角色素材；保留[完整许可及第三方权利边界](android/app/src/main/assets/petpreview/ASSET_LICENSE.md)。这是页面内模拟桌面与离线聊天，系统悬浮窗和 AI 接入尚未实现。
+**[真实桌面悬浮窗使用与实现](docs/pet/ANDROID_PET_OVERLAY_V1.md)**。入口：**我的 → 桌面大肥鱼 → 开启桌宠**，首次需允许系统悬浮窗权限，返回手机桌面后角色仍显示。支持拖动贴边、互动气泡、设置及通知关闭。聊天仍为离线模拟。
+
+**[原有视觉设计、素材授权与状态机](docs/pet/ANDROID_PET_DESIGN_V1.md)** · **[预览页截图](docs/pet/SCREENSHOTS.md)**。复用 YunYueSama 的 [codex-deepseek-pet](https://github.com/YunYueSama/codex-deepseek-pet) 原有角色素材，保留[完整许可及第三方权利边界](android/app/src/main/assets/petpreview/ASSET_LICENSE.md)。
 
 ## 从这里开始
 

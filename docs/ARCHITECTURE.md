@@ -33,6 +33,7 @@ flowchart LR
 | `core/model/PeriodReview.kt` | 按日期窗口汇总计划和结果、Markdown输出 |
 | `feature/records/PeriodReviewScreen.kt` | 周报/14天复盘与系统文件导出 |
 | `feature/petpreview/` | 独立Compose桌宠预览、帧动画与本地模拟窗口；不引用Repository/Room/同步 |
+| `feature/petoverlay/` | 独立授权/设置Activity、原生透明窗口与前台Service；私有桌宠设置，不引用业务数据 |
 | `core/model/UnifiedTraining.kt`、`UnifiedWorkoutDraft.kt` | 七动作模板、实际组次与可恢复草稿 |
 | `feature/workout/` | 跟练、相机预览、本机姿态与有限动作计数 |
 | `core/alarm/` | App本地提醒、系统时钟交接与状态展示 |
